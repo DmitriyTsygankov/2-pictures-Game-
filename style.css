@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+input[type=button] {
+    padding: 15px 25px;
+    color: snow;
+    background-color: cornflowerblue;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.field {
+    margin-top: 20px;
+    display: inline-block;
+    border: 2px solid cornflowerblue;
+}
+
+.row {
+    height: 75px;
+}
+
+.cell {
+    background-size: cover;
+    display: inline-block;
+    border: 2px solid cornflowerblue;
+    width: 75px;
+    height: 75px;
+}
+
+.hover-cell {
+    background-image: none !important;
+    background: gainsboro;
+}
